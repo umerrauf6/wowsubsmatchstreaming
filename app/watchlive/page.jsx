@@ -6,7 +6,7 @@ const WatchLive = () => {
     height: "56.25%", // Set the height to maintain a 16:9 aspect ratio
   };
   return (
-    <div className="w-full">
+    <div className="w-full text-black">
       <div className="flex justify-center min-[550px]:mt-[1rem]">
         <div className="bg-white text-center capitalize min-[550px]:w-[90%] sm:w-[80%] min-[1200px]:w-[70%] xl:w-[60%]">
           Double Click on Video if you are watching on phone
