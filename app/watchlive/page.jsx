@@ -7,6 +7,11 @@ const WatchLive = () => {
   };
   return (
     <div className="w-full">
+      <div className="flex justify-center">
+        <div className="bg-white text-center capitalize min-[550px]:w-[90%] sm:w-[80%] min-[1200px]:w-[70%] xl:w-[60%]">
+          Double Click on Video if you are watching on phone
+        </div>
+      </div>
       <div className=" flex  justify-center min-[550px]:mt-[1rem]">
         <iframe
           src="https://crichdstreaming.xyz/embed2.php?id=starsp3"
