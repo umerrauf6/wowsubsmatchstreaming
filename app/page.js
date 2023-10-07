@@ -1,5 +1,4 @@
 import Image from "next/image";
-import WatchLive from "./watchlive/page";
 import { poster } from "@/public/assets";
 import Link from "next/link";
 
