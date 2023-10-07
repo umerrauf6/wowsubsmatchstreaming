@@ -1,4 +1,4 @@
-import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 import Navbar from "./components/Nabar";
 import "./globals.css";
 import { Inter } from "next/font/google";
@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
         <div className="h-screen" style={containerStyle}>
           <Navbar />
           {children}
+          <Analytics />
         </div>
       </body>
     </html>
