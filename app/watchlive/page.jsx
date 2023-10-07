@@ -17,7 +17,7 @@ const WatchLive = () => {
           src="https://crichdstreaming.xyz/embed2.php?id=starsp3"
           width="90%"
           height="540"
-          frameborder="0"
+          frameBorder="0"
           allowFullScreen={true}
           className="aspect-video object-fill w-[100%] h-[56.25%] min-[550px]:w-[90%] sm:w-[80%] min-[1200px]:w-[70%] xl:w-[60%]"
         ></iframe>
