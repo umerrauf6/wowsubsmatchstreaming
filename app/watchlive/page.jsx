@@ -7,7 +7,7 @@ const WatchLive = () => {
     width: "100%", // Set the width to 100% of the parent container
     height: "56.25%", // Set the height to maintain a 16:9 aspect ratio
   };
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState(7);
 
   const handleTabClick = (tabNumber) => {
     setActiveTab(tabNumber);
