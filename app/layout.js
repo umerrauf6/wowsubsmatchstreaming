@@ -11,7 +11,7 @@ export const metadata = {
 };
 
 const containerStyle = {
-  backgroundImage: "url(assets/background.jpg)",
+  backgroundImage: "url(assets/bg-image.webp)",
   backgroundRepeat: "no-repeat",
   backgroundPosition: "center center",
   backgroundAttachment: "fixed",
